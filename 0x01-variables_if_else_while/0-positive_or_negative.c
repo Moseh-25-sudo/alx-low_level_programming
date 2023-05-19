@@ -5,7 +5,9 @@
 /** main function to generate a random number
  *
  * Return: Always (0) (Success)
+ *
  */
+
 int main(void)
 {
 	int n;
