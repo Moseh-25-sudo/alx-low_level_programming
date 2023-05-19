@@ -2,7 +2,8 @@
 #include <stdlib.h>
 #include <time.h>
 
-/** main function to generate a random number
+/**
+ * main function to generate a random number 
  *
  * Return: Always (0) (Success)
  *
@@ -21,7 +22,6 @@ int main(void)
 	else if (n == 0)
 	{
 		printf("%d is zero\n", n);
-
 	}
 	else if (n < 0)
 	{
