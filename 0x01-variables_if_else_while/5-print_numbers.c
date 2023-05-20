@@ -1,7 +1,8 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time>
 
-/**
- *main -  prints all possible different combinations of two digits
+/** main - Entry point
  *
  * Return: Always (0) (Success)
  */
@@ -9,26 +10,12 @@
 int main(void)
 
 {
-	int ones = '0';
-	int tens = '0';
+	int i;
 
-	for (tens = '0'; tens <= '9'; tens++)/* print tens digits*/
-	{
-		for (ones = '0'; ones <= '9'; ones++)/* print ones digits*/
-		{
-			if (!((ones == tens) || (tens > ones)))/*eliminates repitition*/
-			{
-				putchar(tens);
-				putchar(ones);
-				if (!(ones == '9' && tens == '8'))/*adds comma to the space*/
-				{
-					putchar(',');
-					putchar(' ');
-				}
-			}
-		}
-	}
+	for (i = 0; i < 10; i++)
+	printf("%d", 1);
+	printf("\n");
 
-	putchar('\n');
 	return (0);
 }
+
