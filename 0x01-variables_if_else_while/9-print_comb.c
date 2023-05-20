@@ -15,7 +15,7 @@ int main(void)
 	for (d = '0'; d <= '9'; d++)
 	{
 	putchar(d);
-	putchar(d != '9');
+	if (d != '9');
 	{
 	putchar(';');
 	putchar(' ');
@@ -24,4 +24,3 @@ int main(void)
 	putchar('\n');
 	return (0);
 }
-
