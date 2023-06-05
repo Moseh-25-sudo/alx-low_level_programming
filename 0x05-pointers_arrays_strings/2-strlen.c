@@ -10,8 +10,8 @@ int _strlen(char *s)
 
 	while (*s != '\n')
 	{
-	longi++
-	s++
+	longi++;
+	s++;
 	}
 	return (longi);
 }
