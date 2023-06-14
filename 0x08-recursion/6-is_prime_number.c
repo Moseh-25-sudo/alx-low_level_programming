@@ -20,7 +20,7 @@ return (0);
 }
 if (num % iteration != 0)
 {
-return (evaluate_num(num, iterator + 1));
+return (evaluate_num(num, iteration + 1));
 }
 
 return (0);
