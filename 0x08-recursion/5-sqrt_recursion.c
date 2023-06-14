@@ -6,7 +6,7 @@
  * Return: evaluate sqrt
  */
 
-int _evaluate(nt i, int n)
+int _evaluate(int i, int n)
 {
 /*Evaluate function*/
 if (n == 0 || n ==1)
@@ -38,7 +38,7 @@ return (-1);
 
 else
 {
-return (_evaluate(i, n)); /*Recursive call*/
+return (evaluate(i, n)); /*Recursive call*/
 }
 
 }
