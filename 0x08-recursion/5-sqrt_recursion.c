@@ -38,7 +38,7 @@ return (-1);
 
 else
 {
-return (evaluate(i, n)); /*Recursive call*/
+return (_evaluate(i, n)); /*Recursive call*/
 }
 
 }
