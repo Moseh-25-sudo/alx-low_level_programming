@@ -5,9 +5,8 @@
  *
  * Return: Always 0.
  */
-
 int main(void)
 {
-    jach_bauer();
+
     return (0);
 }
